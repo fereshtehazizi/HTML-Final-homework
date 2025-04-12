@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe list</title>
+    <style type="text/css">
+        a{
+            text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: #fff;   
+        }
+        .navbar{
+            background-color: #561C24; padding-right: 20px; padding-left: 25px; height: 60px; border-radius: 15px; padding-top: 5px; text-align: center; 
+        }
+        .navdiv{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600; color: white;
+        }
+        li{
+             display: inline-block;
+        }
+        li a{
+            color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+        }
+        .box{
+            width: 175px; height: 55px; background-color: #561C24; border-color: black; border-radius: 10px; position: relative; margin: 0;
+        }
+        .box{
+            font-size: 23px; font-weight: 600; color: white; padding-left: 10px;  display: flex; align-items: center; font-family: Arial, Helvetica, sans-serif;
+        }
+        td button{
+            padding: 5px; height: 5%; width: 100px; background-color: rgb(83, 6, 6); border-radius: 8px;
+        }
+        table{
+            width: 1505px; table-layout: fixed; word-wrap: break-word; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Recipe Gallery </a></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Recipe Gallery.html">Recipe Gallery</a></li>
+            <li><a href="Add recipe.html">Add Recipe</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#App">Appetizers</a></li>
+            <li><a href="#Bran">Brunch</a></li>
+            <li><a href="#Fast">Fast Food</a></li>
+            <li><a href="#Snack">Snacks</a></li>
+            <li><a href="#Salad">Salads</a></li>
+            <li><a href="#Des">Desserts</a></li>
+            <li><a href="#Baked">Baked Goods</a></li>
+            <li><a href="#Bev">Beverages</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <section1>
+        <Header>
+            <p><strong>Discover a variety of delicious recipes all in one place. Whether you're craving something sweet, savory, or healthy—find the perfect dish to try today!</strong></p>
+            <hr>
+        </Header>
+        <table id="App">
+            <tr>
+                <td><img src="App1.png" alt="App1" width="500" height="350"></td>
+                <td><img src="App2.png" alt="App2" width="500" height="350"></td>
+                <td><img src="App3.png" alt="App3" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Bruschetta</div></td>
+                <td><div class="box">Spring Rolls</div></td> 
+                <td><div class="box">Mozzarella Sticks</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Italy</td>
+                <td>Origin: Vietnam</td>
+                <td>Origin: United States</td>
+            </tr>
+            <tr>
+                <td>Bruschetta is a simple yet irresistible Italian appetizer. Fresh tomatoes, fragrant basil, and garlic come together on crispy, toasted bread, offering a burst of flavors in every bite.</td>
+                <td>Crispy and fresh, filled with vegetables (or meat), and wrapped in rice paper. Served with a flavorful dipping sauce, they're a light and tasty appetizer.</td>
+                <td>Crispy on the outside, gooey on the inside. These golden, breadcrumb-coated sticks of melted mozzarella are perfect for dipping in marinara sauce.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#App">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#App">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#App">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="App4.png" alt="App4" width="500" height="350"></td>
+                <td><img src="sushi.jpg" alt="App5" width="500" height="350"></td>
+                <td><img src="App6.png" alt="App6" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Deviled Eggs</div></td>
+                <td><div class="box">Uramaki Sushi</div></td> 
+                <td><div class="box"> Mini Quiches</div></td>
+            </tr>
+            <tr>
+                <td>Origin: United States</td>
+                <td>Origin: Japan</td>
+                <td>Origin: France</td>
+            </tr>
+            <tr>
+                <td>Creamy, tangy filling with a touch of mustard and paprika, nestled in a halved boiled egg. A classic appetizer that's simple yet flavorful.</td>
+                <td>“Inside-out” rolls with rice on the outside and seaweed on the inside.. A delightful bite-sized Japanese dish bursting with flavor and tradition.</td>
+                <td>Bite-sized savory pastries filled with creamy egg custard, cheese, and various vegetables or meats. Perfect for any gathering or brunch.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#tr">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#tr">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#tr">Full recipe</a></button></td>
+            </tr>
+        </table>
+    </section>
+    <main>
+        <table id="Bran"> 
+            <tr>
+                <td><img src="Bran1.png" alt="Bran1" width="500" height="350"></td>
+                <td><img src="Bran2.png" alt="Bran2" width="500" height="350"></td>
+                <td><img src="Bran3.png" alt="Bran3" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Waffles</div></td>
+                <td><div class="box">Quiche Lorraine</div></td> 
+                <td><div class="box">Bagel with Cream Cheese</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Belgium</td>
+                <td>Origin: France</td>
+                <td>Origin: United States</td>
+            </tr>
+            <tr>
+                <td>Crispy on the outside, soft on the inside, these golden squares are perfect for breakfast or dessert, topped with syrup, fruits, or whipped cream.</td>
+                <td>A savory tart with a creamy filling of eggs, cream, bacon, and cheese, set in a flaky pastry crust. Perfect for brunch or a light meal.</td>
+                <td>A chewy, toasted bagel topped with rich, smooth cream cheese. A simple yet satisfying breakfast or snack choice.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Bran">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bran">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bran">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="Bran4.png" alt="Bran4" width="500" height="350"></td>
+                <td><img src="bran5.png" alt="bran5" width="500" height="350"></td>
+                <td><img src="yogurt parfait.jpg" alt="cheesecake" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Frittata </div></td>
+                <td><div class="box">Eggs Benedict</div></td> 
+                <td><div class="box">Yogurt Parfrait</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Italy</td>
+                <td>Origin: United States (New York City)</td>
+                <td>Origin: United States</td>
+            </tr>
+            <tr>
+                <td>A fluffy, oven-baked omelette filled with vegetables, meats, and cheese. It's a versatile dish that's both filling and full of flavor, perfect for any time of day.</td>
+                <td>A luxurious brunch dish featuring poached eggs, Canadian bacon, and English muffins, all topped with rich, creamy hollandaise sauce. Perfect for a weekend treat</td>
+                <td>A refreshing and healthy treat made by layering creamy yogurt, fresh fruits, and crunchy granola. It's a delicious, customizable option for breakfast or a light snack.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#bran-details">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#bran-details">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#bran-details">Full recipe</a></button></td>
+            </tr>
+        </table>
+        <table id="Fast">
+            <tr>
+                <td><img src="Instant Ramen.jpg" alt="Fast" width="500" height="350"></td>
+                <td><img src="Fast1.png" alt="Fast" width="500" height="350"></td>
+                <td><img src="Fast2.png" alt="Fast" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Instant Ramen</div></td>
+                <td><div class="box">Shawarma</div></td> 
+                <td><div class="box">Samosa</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Japan</td>
+                <td>Origin: Middle East</td>
+                <td>Origin: India</td>
+            </tr>
+            <tr>
+                <td>A quick and comforting dish consisting of noodles in a savory broth, often topped with seasoning and additional ingredients like eggs, vegetables, or meat. Perfect for a fast and satisfying meal.</td>
+                <td>Marinated meat cooked on a vertical rotisserie, served in pita or flatbread with veggies, pickles, and tahini or garlic sauce. A savory street food favorite!</td>
+                <td>Crispy pastry pockets filled with spiced potatoes, peas, and sometimes meat, deep-fried to golden perfection. A savory, crunchy snack that's bursting with flavor!</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Fast">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Fast">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Fast">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="tacos2.jpg" alt="Tacos" width="500" height="350"></td>
+                <td><img src="Fast3.png" alt="Fast3" width="500" height="350"></td>
+                <td><img src="Fast4.png" alt="Fast4" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">mexican Tacos</div></td>
+                <td><div class="box">Cheeseburger</div></td> 
+                <td><div class="box">Chicken Nuggets</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Mexico</td>
+                <td>Origin: United States</td>
+                <td>Origin: United States</td>
+            </tr>
+            <tr>
+                <td>Soft or crispy tortillas filled with seasoned meat, fresh vegetables, and flavorful toppings, making each bite a delicious burst of savory goodness!</td>
+                <td>A juicy beef patty topped with melted cheese, crisp lettuce, tomato, pickles, and a soft-bun classic comfort food at its best!</td>
+                <td>Tender, breaded chicken pieces, fried to crispy perfection, making them a fun and irresistible snack or meal option!</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Fast1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Fast1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Fast1">Full recipe</a></button></td>
+            </tr>
+        </table>
+        <table id="Snack">
+            <tr>
+                <td><img src="snack1.png" alt="snack1" width="500" height="350"></td>
+                <td><img src="snack222.jpg" alt="snack2" width="500" height="350"></td>
+                <td><img src="snack3.png" alt="snack3" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Okaka Onigiri</div></td>
+                <td><div class="box">Guacamole with Chips</div></td> 
+                <td><div class="box">Chocolate Truffles</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Japan</td>
+                <td>Origin: Mexico</td>
+                <td>Origin: France</td>
+            </tr>
+            <tr>
+                <td>Soft, triangular rice balls wrapped in nori, often filled with flavorful ingredients like tuna, pickled plum, or salmon simple, delicious, and portable!</td>
+                <td>Creamy, flavorful avocado dip mixed with lime, cilantro, and spices, served with crispy tortilla chips. The perfect snack for any occasion!</td>
+                <td>Decadent, melt-in-your-mouth chocolate ganache coated in cocoa or chopped nuts, offering a rich and indulgent treat.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Snack">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Snack">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Snack">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="Snack4.png" alt="Snack4" width="500" height="350"></td>
+                <td><img src="snack5.jpg" alt="snack5" width="500" height="350"></td>
+                <td><img src="Snack6.png" alt="Snack6" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Granola Bars</div></td>
+                <td><div class="box">Shrimp Tempura</div></td> 
+                <td><div class="box">Cheese balls</div></td>
+            </tr>
+            <tr>
+                <td>Origin: United States</td>
+                <td>Origin: Japan</td>
+                <td>Origin: United</td>
+            </tr>
+            <tr>
+                <td>Crunchy and wholesome, these bars are made from oats, nuts, and honey, providing a perfect balance of sweetness and energy for a quick snack.</td>
+                <td>Light and crispy battered shrimp, deep-fried to perfection, creating a golden, crunchy exterior and juicy interior. It's a delightful Japanese snack.</td>
+                <td>StatesCrispy, cheesy snacks made from a blend of cheese and seasonings, shaped into small balls and fried to a golden crisp. These are the ultimate party treat that melts in your mouth!</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Snack1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Snack1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Snack1">Full recipe</a></button></td>
+            </tr>
+        </table>
+        <table id="Salad">
+            <tr>
+                <td><img src="salad1.jpg" alt="salad" width="500" height="350"></td>
+                <td><img src="egg salad.png" alt="salad-egg" width="500" height="350"></td>
+                <td><img src="Salad2.png" alt="Salad2" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Caesar Salad  </div></td>
+                <td><div class="box">Egg Salad</div></td> 
+                <td><div class="box">Greek Salad</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Mexico</td>
+                <td>Origin: United States</td>
+                <td>Origin: Greece</td>
+            </tr>
+            <tr>
+                <td>Crisp romaine lettuce, crunchy croutons, and creamy, tangy Caesar dressing, topped with Parmesan cheese. It's a timeless, refreshing dish that's perfect as a starter or side!</td>
+                <td>Creamy, flavorful egg salad made with boiled eggs, mayonnaise, mustard, and seasoning. It's a simple yet satisfying dish, perfect for sandwiches or as a side.</td>
+                <td>A fresh, vibrant mix of cucumbers, tomatoes, red onions, olives, and feta cheese, tossed with olive oil and herbs. It's a light and tangy dish, full of Mediterranean flavors.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Salad">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Salad">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Salad">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="Salad3.png" alt="Salad3" width="500" height="350"></td>
+                <td><img src="salad4.png" alt="Salad4" width="500" height="350"></td>
+                <td><img src="salad5.jpg" alt="salad5" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Caprese Salad</div></td>
+                <td><div class="box">Chickpea Salad</div></td> 
+                <td><div class="box">Pasta Salad</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Italy </td>
+                <td>Origin: Mediterranean</td>
+                <td>Origin: Italy</td>
+            </tr>
+            <tr>
+                <td>A simple, refreshing salad made with ripe tomatoes, fresh mozzarella, basil leaves, and a drizzle of olive oil and balsamic vinegar. It's a perfect balance of flavors, capturing the essence of Italian summer</td>
+                <td>A light and nutritious salad featuring chickpeas, cucumbers, tomatoes, red onions, and fresh herbs, tossed in olive oil and lemon juice. It's a satisfying, healthy dish full of texture and flavor.</td>
+                <td>A colorful and refreshing dish with cooked pasta, mixed vegetables, and a zesty dressing. Perfect for picnics, BBQs, or as a side dish to any meal.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Salad1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Salad1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Salad1">Full recipe</a></button></td>
+            </tr>
+        </table>
+        <table id="Des">
+            <tr>
+                <td><img src="tiramisu2.jpg" alt="tiramisu" width="500" height="350"></td>
+                <td><img src="Des2.jpg" alt="Des2" width="500" height="350"></td>
+                <td><img src="Des4.jpg" alt="Des4" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Tiramisu</div></td>
+                <td><div class="box">Apple Pie</div></td> 
+                <td><div class="box"> Gulab Jamun</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Italy</td>
+                <td>Origin: United States</td>
+                <td>Origin: India</td>
+            </tr>
+            <tr>
+                <td>A creamy, coffee-flavored dessert made with layers of ladyfingers soaked in espresso, mascarpone cheese, and a dusting of cocoa powder. It's indulgent, rich, and absolutely irresistible.</td>
+                <td>A warm, comforting dessert with a flaky crust and a sweet, cinnamon-spiced apple filling. It's a timeless classic that reminds you of home.</td>
+                <td>Soft, syrup-soaked dough balls made from milk solids and flour, infused with a touch of cardamom and rose water. These melt-in-your-mouth treats are a rich, sweet indulgence.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Des">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Des">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Des">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="Des3.png" alt="Des3" width="500" height="350"></td>
+                <td><img src="dess.png" alt="Des1" width="500" height="350"></td>
+                <td><img src="cheesecake.png" alt="cheesecake" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Creme Brulee</div></td>
+                <td><div class="box"> Panna Cotta</div></td> 
+                <td><div class="box">Cheesecake</div></td>
+            </tr>
+            <tr>
+                <td>Origin: France</td>
+                <td>Origin: Italy</td>
+                <td>Origin: Ancient Greece, modernized in the USA</td>
+            </tr>
+            <tr>
+                <td>A creamy custard topped with a crunchy, caramelized sugar crust. This elegant dessert offers the perfect balance of smoothness and crunch in every bite.</td>
+                <td>A silky, creamy dessert with a delicate vanilla flavor, topped with fresh berries or fruit compote. It's light yet indulgent, a perfect way to end any meal.</td>
+                <td>rich, velvety dessert with a creamy cheese filling on a crunchy graham cracker crust, often topped with fresh fruit or a sweet sauce. It's a timeless classic loved by many.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Des1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Des1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Des1">Full recipe</a></button></td>
+            </tr>
+        </table>
+        <table id="Baked">
+            <tr>
+                <td><img src="Baked.png" alt="Baked" width="500" height="350"></td>
+                <td><img src="Baked2.png" alt="Baked2" width="500" height="350"></td>
+                <td><img src="Baked3.png" alt="Baked3" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Croissant </div></td>
+                <td><div class="box">Banana Bread</div></td> 
+                <td><div class="box">Chocolate Chip Cookies</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Austria (though popularized in France)</td>
+                <td>Origin: United States</td>
+                <td>Origin: United States</td>
+            </tr>
+            <tr>
+                <td>A buttery, flaky pastry with a golden-brown exterior and soft, airy layers inside. Perfect for breakfast or as a snack with a cup of coffee, it's a symbol of French pastry mastery.</td>
+                <td>A moist, flavorful loaf made with ripe bananas, offering a sweet, dense texture with hints of vanilla and cinnamon. It's the perfect way to use up overripe bananas and enjoy a comforting treat.</td>
+                <td>A classic American treat with a crispy edge and soft, chewy center. Packed with rich, melty chocolate chips, these cookies are a delightful balance of sweetness and texture. Perfect for any occasion!</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Baked">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Baked">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Baked">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="Baked4.png" alt="Baked4" width="500" height="350"></td>
+                <td><img src="baked5.jpg" alt="Backed5" width="500" height="350"></td>
+                <td><img src="Baked6.png" alt="Baked6" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Scones</div></td>
+                <td><div class="box">Muffins</div></td> 
+                <td><div class="box">Pita Bread</div></td>
+            </tr>
+            <tr>
+                <td>Origin: United Kingdom</td>
+                <td>Origin: United States</td>
+                <td>Origin: Middle East</td>
+            </tr>
+            <tr>
+                <td>Buttery, light baked goods, often with dried fruits, perfect for tea time with jam and clotted cream.</td>
+                <td>Soft, fluffy, and slightly sweet treats, available in a variety of flavors like blueberry, chocolate chip, and banana.</td>
+                <td>Soft, pocket-style flatbread with a slightly chewy texture, perfect for stuffing with fillings or serving alongside dips like hummus.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Baked1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Baked1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Baked1">Full recipe</a></button></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <table id="Bev">
+            <tr>
+                <td><img src="Bev1.png" alt="Bev1" width="500" height="350"></td>
+                <td><img src="Bev2.png" alt="Bev2" width="500" height="350"></td>
+                <td><img src="Bev3.png" alt="Bev3" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Lemonade</div></td>
+                <td><div class="box">Milkshake</div></td> 
+                <td><div class="box">Smoothie</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Ancient Egypt</td>
+                <td>Origin: United States</td>
+                <td>origin: United States</td>
+            </tr>
+            <tr>
+                <td>A refreshing drink made from freshly squeezed lemons, sugar, and water, perfect for quenching your thirst on a hot day.</td>
+                <td>A creamy, indulgent blend of milk, ice cream, and flavorings like chocolate or vanilla, often topped with whipped cream. It's a deliciously cool treat for any occasion.</td>
+                <td>A refreshing, blended drink made with fruits, vegetables, yogurt, or juice, perfect for a healthy and delicious snack or breakfast.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Bev">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bev">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bev">Full recipe</a></button></td>
+            </tr>
+            <tr>
+                <td><img src="bev4.jpg" alt="bev4" width="500" height="350"></td>
+                <td><img src="bev5.jpg" alt="bev5" width="500" height="350"></td>
+                <td><img src="bev6.jpg" alt="bev6" width="500" height="350"></td>
+            </tr>
+            <tr>
+                <td><div class="box">Matcha Latte</div></td>
+                <td><div class="box">Hot Chocolate</div></td> 
+                <td><div class="box">Caramel Macchiato</div></td>
+            </tr>
+            <tr>
+                <td>Origin: Japan</td>
+                <td>Origin: Mesoamerica (Aztec and Mayan cultures)</td>
+                <td>Origin: Italy, popularized in the U.S. by Starbucks</td>
+            </tr>
+            <tr>
+                <td>A creamy, vibrant green tea latte made with finely ground matcha, steamed milk, and a touch of sweetness, offering a smooth, earthy flavor.</td>
+                <td>A rich, comforting drink made with melted chocolate, milk, and sugar, offering a sweet, creamy, and warming experience perfect for chilly days.</td>
+                <td>A sweet, creamy espresso drink with steamed milk and a drizzle of caramel syrup, offering the perfect balance of coffee and sweetness.</td>
+            </tr>
+            <tr>
+                <td><button><a href="Recipe Details.html#Bev1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bev1">Full recipe</a></button></td>
+                <td><button><a href="Recipe Details.html#Bev1">Full recipe</a></button></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

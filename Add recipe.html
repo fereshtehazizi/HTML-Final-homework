@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        a{
+            text-decoration: none; font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            background-color: #561C24; padding-right: 20px; padding-left: 25px; height: 60px; padding-top: 10px; border-radius: 15px;
+        }
+        .navdiv{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600; color: white; padding-top: 5px; font-family: dancing script;
+        }
+        li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color: white; font-size: 18px; font-weight: bold; margin-right: 25px; 
+        }
+        .font{
+            font-family: dancing script; color:black; text-align: center;
+        }
+        .fieldset{
+            padding: 1em 4em; padding-right: 15px; border: solid 1px #561C24; border-radius: 10px; background-color: #561C24; width: 700px;
+            margin-left: auto; margin-right: auto; text-align: left;
+        }
+        .legend{
+            font-size: 3em; color: white; padding-bottom: 15px; margin-left: auto; margin-right: auto; padding-top: 10px;
+        }
+        .form-container :hover{
+            border: 2px solid;  border-radius: 8px; background-color: #561C24; color: white;
+        }
+        .form-container :focus{
+            border: 2px solid rgb(60, 27, 3); border-radius: 8px; display: block; text-align: center;
+        } 
+        label{
+            color: #fff; position: relative; font-size: 1.1em; font-family: Arial, Helvetica, sans-serif; 
+        }
+        .box{
+            padding-top: 5px;
+        }
+        .box input{
+            font-size: 15px; font-weight: 600; font-family: Arial, Helvetica, sans-serif ;
+        }
+        .img label{
+             font-size: 17.25px; font-weight: 400; font-family: Arial, Helvetica, sans-serif;
+        }
+        .img input{
+            text-align: center; font-size: 15px; font-weight: 400; font-family: Arial, Helvetica, sans-serif; width: 250px; height: 30px; padding-top: 5px;
+        }
+        .category label{
+            font-size: 1.25; font-family: Arial, Helvetica, sans-serif;
+        }
+        .category select{
+            background-color: #fff; color: black; border: 1px #fff; border-radius: 5px; height: 30px; 
+            font-family: Arial, Helvetica, sans-serif; text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+        <div class="logo"><a href="#">Got a favorite dish?</a></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Recipe Gallery.html">Recipe Gallery</a></li>
+            <li><a href="Add recipe.html">Add Recipe</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="font">
+            <h1>Share it with the world!</h1>
+           <p><h2>Add your own recipe and inspire others with your kitchen creations.</h></p> 
+        </div>
+   </header>
+   <main>
+    <form action="#" method="post">
+        <div class="fieldset">
+        <div class="legend"><legend>Your Recipe</legend></div>
+            <label for="name">Name</label><br>
+            <div class="form-container">
+            <input type="text" id="name" name="info" required><br><br></div>
+            <label for="last">Last Name</label><br>
+            <div class="form-container">
+            <input type="text" id="last" name="info" required><br><br></div>
+            <label for="re-name">Recipe Name</label><br>
+            <div class="form-container">
+            <input type="text" id="re-name" name="info" required><br><br></div>
+            <div class="img">
+            <label for="Re-img">Upload Image</label><br>
+            <input type="file" name="img" id="Re-img" required><br><br></div>
+            <div class="category">
+                <label for="Re-Cat">Recipe category:</label>
+                <select name="Recipe category" id="Re" placeholder="option">
+                    <option value="Appetizers">Appetizers</option><hr>
+                    <option value="Main Courses">Main Courses</option><hr>
+                    <option value="Side Dishes">Side Dishes</option><hr>
+                    <option value="Brunch">Brunch</option><hr>
+                    <option value="Fast Food">Fast Food</option><hr>
+                    <option value="Desserts">Desserts</option><hr>
+                    <option value="Baked Goods">Baked Goods</option><hr>
+                    <option value="Salads">Salads</option><hr>
+                    <option value="Beverages">Beverages</option>
+                </select><br><br>
+            </div>
+            <label for="ingre">Ingredients</label><br>
+            <div class="form-container">
+            <textarea name="ingrideants" id="ingre" rows="10" cols="40" required></textarea><br><br></div>
+            <label for="instru">Instructions</label><br>
+            <div class="form-container">
+            <textarea name="instructions" id="instru" rows="10" cols="40" required></textarea></div>
+            <div class="box">
+            <input type="submit" value="submit" style="height:35px; width:100px" required></div>
+        </div>
+    </form> 
+   </main>
+</body>
+</html>
